@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Luigi Di Muzio</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-example" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Luigi Di Muzio</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-example">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#chisono">Chi sono <span class="sr-only">(current)</span></a></li>
+        <li><a href="#cosasofare">Cosa so fare</a></li>
+        <li class="dropdown">
+          <a href="#contatti" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contatti<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#instagram">Instagram</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#facebook">Facebook</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#linkedin">Linkedin</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#email">Email</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image: url(https://source.unsplash.com/featured/?community,friendship)">
+      <div class="carousel-caption">
+        <h3>Start2impact member</h3>
+        <p>Faccio parte della community di s2i</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(https://source.unsplash.com/featured/?stats,graphics)">
+      <div class="carousel-caption">
+        <h3>Social Media manager</h3>
+        <p>Sono in grado di gestire una pagina di un social media</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(https://source.unsplash.com/featured/?html,css)">
+      <div class="carousel-caption">
+        <h3>Programmatore</h3>
+        <p>Ho imparato a programmare in linguaggio html e css</p>
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<hr id="chisono">
+<hr>
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-6">
+    <h2> Chi sono </h2>
+    <p class="lead">
+    Mi chiamo Luigi Di Muzio, sono un ragazzo di 20 anni e frequento la facoltà di economia aziendale a Pescara. Faccio parte della community di Start2impact
+    che stà velocizzando la mia formazione online. Sin da piccolo ho sempre cercato di imparare il più possibile della tecnologia e ancora oggi questa passione
+  mi accompagna. </p>
+   <p class="lead">Me ne intendo di computer e dispositivi multimediali e sono sempre ben disposto ad aiutare le persone che mi chiedono una mano o un consiglio.
+      Apprezzo la compagnia anche in ambito lavorativo poichè ritengo che il confronto di idee sia sempre la migliore alternativa. Nonostante ciò non ho problemi
+   a lavorare da solo</p>
+  </div>
+  <div class="col-sm-6">
+    <img src="immagini\profilo.png" alt="foto profilo">
+  </div>
+</div>
+</div>
+
+<hr id="cosasofare">
+<hr>
+
+<div class="container">
+<h2> Capacità </h2>
+<h3>Soft skills</h3>
+<div class="row">
+  <div class="col-sm-6 col-md-3 col-xs-6">
+    <div class="thumbnail">
+      <img src="immagini\ruler.png" alt="logo-precisione">
+      <div class="caption">
+        <h3>Precisione</h3>
+        <p>Rispetto dell'ordine e dell'esattezza,meticolosità</p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+  Cos'è?</button>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div> <!--fine pezzo griglia -->
+  <div class="col-sm-6 col-md-3 col-xs-6">
+    <div class="thumbnail">
+      <img src="immagini\worker.png" alt="logo-proattività">
+      <div class="caption">
+        <h3>Proattività</h3>
+        <p>Capacità di agire in anticipo per una problematica</p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+  Cos'è?</button>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- fine modal -->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3 col-xs-6">
+    <div class="thumbnail">
+      <img src="immagini\clock.png" alt="logo-puntualità">
+      <div class="caption">
+        <h3>Puntualità</h3>
+        <p>Precisione associata a tempestività e opportunità</p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+  Cos'è?</button>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div> <!--fine pezzo griglia -->
+  <div class="col-sm-6 col-md-3 col-xs-6">
+    <div class="thumbnail">
+      <img src="immagini\idea.png" alt="logo-creatività">
+      <div class="caption">
+        <h3>Creatività</h3>
+        <p>Capacità di creare e produrre,inventiva</p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+  Cos'è?</button>
+        <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- fine modal -->
+      </div>
+    </div>
+  </div> <!-- fine soft skill box -->
+</div> <!-- chiusura row -->
+
+<hr>
+
+  <h3>Hard skills</h3>
+  <div>
+
+  <!-- navigazione -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#C-dig" aria-controls="C-dig" role="tab" data-toggle="tab">Competenze digitali</a></li>
+    <li role="presentation"><a href="#C-mat" aria-controls="C-mat" role="tab" data-toggle="tab">Competenze materiali</a></li>
+  </ul>
+
+  <!-- griglia skills -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="C-dig">
+    <div class="row" id="digitale">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="immagini\data.png" alt="logo-programmatore">
+          <div class="caption">
+            <h3>Programmazione web</h3>
+            <p>Sono in grado di scrivere dei siti web curando sia la parte html che la parte css (ho scritto interamente questo mio sito portfolio). A breve studierò anche javascript e c++ per completare questo
+            mio percorso.</p>
+            <p>Ho anche studiato SEO per un miglior rendimento della pagina web nei motori di ricerca.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="immagini\excel.png" alt="logo-excel">
+          <div class="caption">
+            <h3>Excel</h3>
+            <p>Sono in grado di utilizzare tutte le funzionalità di Excel tra cui calcoli complessi,grafici e raggruppamenti
+               per l'analisi dei dati.</p>
+            <p>Ovviamente sono in grado di utilizzare l'intero pacchetto office senza problemi <br>
+            <br></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="thumbnail">
+          <img src="immagini\statistics.png" alt="logo-social-media-manager">
+          <div class="caption">
+            <h3>Social media manger</h3>
+            <p>Ho completato il corso di social media fornito da Facebook e Google
+           quindi sono in grado di gestire una pagina di un social in modo tale da garantirle una migliore visibilità.<p/>
+            <p> So come funzionano i post sponsorizzati e quale sia la migliore tattica affinche questi siano visti </p>
+          </div>
+        </div>
+      </div> <!-- fine boxs -->
+    </div> <!-- fine row -->
+  </div>
+    <div role="tabpanel" class="tab-pane" id="C-mat">
+       <div class="row" id="materiale">
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <img src="immagini\england.png" alt="logo-inglese">
+              <div class="caption">
+                <h3>Inglese B1</h3>
+                <p>Ho ottenuto questa certificazione 3 anni fa sostenendo il test di Cambridge University. Mi capita spesso di studiare manuali in inglese e di assistere a
+                  conferenze in questa lingua.Grazie a questo non ho problemi a viaggiare e a conversare con persone di lingua straniera.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <img src="immagini\swimming.png" alt="logo-maestro-di-nuoto">
+              <div class="caption">
+                <h3>Maestro di nuoto</h3>
+                <p>Dopo aver preso il brevetto per il MIP (assistente bagnanti abilitato anche al servizio in spiaggia)
+                   mi sono iscritto e ho superato il corso per diventare allievo istruttore al fine di poter insegnare.
+                 Quest'anno ho intenzione di concludere questo percorso perendendo anche il secondo livello</p>
+
+              </div>
+            </div>
+          </div>
+        </div> <!-- fine row -->
+      </div>
+    </div> <!--fine tab -->
+
+  </div> <!-- fine hard skills -->
+
+ </div> <!-- fine Capacità -->
+ <hr>
+ <hr>
+
+ <div class="container">
+  <h2>Contatti</h2>
+  <div class="griglia-social">
+   <div class="row">
+     <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="instagram" id="instagram">
+         <a href="https://www.instagram.com/luigidim_/?hl=it"> <img src="immagini\instagram.png" alt="logo-instagram"> </a>
+      </div>
+     </div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="facebook" id="facebook">
+       <a href="https://www.facebook.com/luigi.dimuzio"> <img src="immagini\facebook.png" alt="logo-facebook"> </a>
+     </div>
+     </div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="linkedin" id="linkedin">
+       <a href="https://www.linkedin.com/in/luigi-di-muzio-60b001192/"> <img src="immagini\linkedin.png" alt="logo-linkedin"> </a>
+      </div>
+      </div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="email" id="email">
+      <a href="mailto:luigi.999@libero.it" title="luigi.999@libero.it"> <img src="immagini\outlook.png" alt="logo-posta"> </a>
+      </div>
+      </div>
+    </div>
+   </div>
+  </div>
+
+<footer>
+  <p>Ultima data di aggiornamento 13-04-2020</p>
+</footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
