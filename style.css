@@ -8,6 +8,13 @@ body {
   line-height: 30px;
 }
 
+h2 {
+  font-size: 3.5rem;
+  opacity: .9;
+  color: #18305a;
+  text-decoration: underline;
+}
+
 .carousel-inner > .item {
   min-height: 600px;
   background-size: cover;
@@ -108,3 +115,15 @@ footer p {
   margin-top: 50px;
   margin-left: 50px;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent,#00bcd4);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent,#18305a);
