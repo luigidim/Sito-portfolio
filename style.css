@@ -121,9 +121,9 @@ footer p {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(transparent,#00bcd4);
+  background: linear-gradient(transparent,#60e3f2);
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(transparent,#18305a);
+  background: linear-gradient(transparent,#00a5b7);
